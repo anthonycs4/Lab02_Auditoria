@@ -1,0 +1,55 @@
+package com.google.android.gms.internal.ads;
+/* compiled from: com.google.android.gms:play-services-ads@@20.2.0 */
+/* loaded from: classes.dex */
+public final class zzfuo extends zzfym<zzfuo, zzfun> implements zzfzv {
+    private static final zzfuo zzf;
+    private int zzb;
+    private zzfxj zze = zzfxj.zzb;
+
+    static {
+        zzfuo zzfuoVar = new zzfuo();
+        zzf = zzfuoVar;
+        zzfym.zzay(zzfuo.class, zzfuoVar);
+    }
+
+    private zzfuo() {
+    }
+
+    public static zzfuo zzd(zzfxj zzfxjVar, zzfxy zzfxyVar) throws zzfyy {
+        return (zzfuo) zzfym.zzaI(zzf, zzfxjVar, zzfxyVar);
+    }
+
+    public static zzfun zze() {
+        return zzf.zzas();
+    }
+
+    public final int zza() {
+        return this.zzb;
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // com.google.android.gms.internal.ads.zzfym
+    public final Object zzb(int i, Object obj, Object obj2) {
+        int i2 = i - 1;
+        if (i2 != 0) {
+            if (i2 != 2) {
+                if (i2 != 3) {
+                    if (i2 != 4) {
+                        if (i2 != 5) {
+                            return null;
+                        }
+                        return zzf;
+                    }
+                    return new zzfun(null);
+                }
+                return new zzfuo();
+            }
+            return zzaz(zzf, "\u0000\u0002\u0000\u0000\u0001\u0003\u0002\u0000\u0000\u0000\u0001\u000b\u0003\n", new Object[]{"zzb", "zze"});
+        }
+        return (byte) 1;
+    }
+
+    public final zzfxj zzc() {
+        return this.zze;
+    }
+}

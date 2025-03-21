@@ -1,0 +1,15 @@
+package com.google.android.gms.internal.ads;
+/* compiled from: com.google.android.gms:play-services-ads@@20.2.0 */
+/* loaded from: classes.dex */
+public final class zzdjd implements zzgdq<zzdir> {
+    private final zzdiy zza;
+
+    public zzdjd(zzdiy zzdiyVar) {
+        this.zza = zzdiyVar;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgeb
+    public final /* bridge */ /* synthetic */ Object zzb() {
+        return null;
+    }
+}
